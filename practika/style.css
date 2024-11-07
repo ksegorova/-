@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: 'Poppins', serif;
+    font-size: 14px; 
+    font-weight: 400px;
+}
+header{
+width: auto;
+height: 90px;
+gap: 80px;
+background: #FFFFFF;
+box-shadow: 11px 11px 25px 0px #0907250F;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+}
+.header_text{
+    display: flex;
+    
+    margin-left: 300px;
+    gap: 80px;
+}
+.header_button{
+    width: 155px;
+    height: 46px;
+    top: 2px;
+    left: 429.81px;
+    background: #1B1A1A;
+    color: #FFFFFF;
+    border-radius: 14px;
+}
+home{
+width: auto;
+height: 720px;
+gap: 0px;
+opacity: 0px;
+background: #ECE7E4;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 50px;
+}
+.conteiner1 > p{
+line-height: 20px;
+letter-spacing: 2px;
+text-align: left;
+color: #645C55;
+}
+.conteiner1 > h1{
+font-size: 64px;
+line-height: 70.4px;
+text-align: left;
+color:  #1B1A1A;
+}
+Our_firm{
+width: auto;
+height: 882px;
+top: 910px;
+left: 336px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+font-size: 32px;
+line-height: 38px;
+text-align: left;
+color: #403E3B;
+gap: 50px;
+}
+.conteiner2{
+font-size: 16px;
+line-height: 24px;
+text-align: left;
+color:  #403E3B;
+display: flex;
+flex-direction: column;
+}
+.Our{
+    margin-bottom: 530px;
+}
+.Collier{
+    display: flex;
+    flex-direction: row;
+}
+.Stephen > p{
+    font-size: 17px;
+    line-height: 26px;
+    text-align: left;  
+    color:  #1B1A1A;
+}
+.Stephen > h1{
+    font-size: 14px;
+    line-height: 14px;
+    text-align: left;
+}
+Reeding_House{
+background-image: url('picture/ReedingHouse.png');
+background-size: cover ;
+background-repeat: no-repeat;
+width: auto;
+height: 600px;
+display: flex;
+align-items: center;
+flex-direction: row-reverse;
+font-size: 16px;
+line-height: 24px;
+text-align: left;
+gap: 50px;
+}
+Our_process{
+width: auto;
+height: 481px;
+top: 2292px;
+left: 120px;
+padding: 0px 16px 0px 16px;
+gap: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.conteiner3{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+.process{
+    display: flex;
+    gap: 150px;
+}
+.Sketching{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Sketching > h1{
+font-size: 17px;
+line-height: 26px;
+text-align: center;
+}
+.Sketching > p{
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+}
+.Finalizing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Finalizing > h1{
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    }
+.Finalizing > p{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.Building{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Building > h1{
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+}
+.Building > p{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+The_marble_staircase{
+background-image: url('picture/staircase.png');
+background-size: cover ;
+background-repeat: no-repeat;
+width: auto;
+height: 600px;
+display: flex;
+align-items: center;
+flex-direction: row-reverse;
+font-size: 16px;
+line-height: 24px;
+text-align: left;
+gap: 50px;
+}
+Happy_customers{
+width: auto;
+height: 410px;
+background: #403E3B;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+color:#ECE7E4 ;
+gap: 50px;
+}
+Happy_customers > p{
+font-size: 15px;
+line-height: 24px;
+text-align: left;
+}
+Happy_customers > h1{
+    font-size: 32px;
+    line-height: 38px;
+    text-align: left;
+}
+.logo{
+    display: flex;
+    gap: 50px;
+}
+.logo1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 60px;
+}
+.logo2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+The_swirling_staircase{
+background-image: url('picture/swirling.png');
+background-size: cover ;
+background-repeat: no-repeat;
+width: auto;
+height: 600px;
+display: flex;
+align-items: center;
+flex-direction: row-reverse;
+font-size: 16px;
+line-height: 24px;
+text-align: left;
+gap: 50px;
+}
+Featured_projects{
+    width: auto;
+    height: 918px;
+    background: #F7F7F7;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.picture{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.image2{
+    background-image: url('picture/image2.png');
+    background-size: cover ;
+    background-repeat: no-repeat; 
+    width: 375px; 
+    height: 456px;  
+}
+.Featured{
+    display: flex;
+    flex-direction: column;
+    margin-right: 880px;
+}
+.View{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.Read{
+top: 372px;
+left: 47px;
+width: 133px;
+height: 46px;
+border-radius: 14px;
+background: #1B1A1A;
+color: #ECE7E4;
+margin-top: 230px;
+margin-left: 40px;
+}
+Meet_our_team{
+    width: auto;
+    height: 592px;
+    top: 5401px;
+    left: 136px;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Collier1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 39px;
+}
+.Collier2{
+    display: flex;
+    flex-direction: row;
+    margin-right: 39px;
+}
+.Collier3{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+.people1{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: -30px;
+}
+.people1 > h1{
+    width: 136px;
+    height: 26px;
+    top: 30px;
+    left: 30.33px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;   
+}
+.people2{
+    margin-bottom: 170px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+Get_touch{
+    width: auto;
+    height: 314px;
+    background: #CEC4BC;
+    color: #1B1A1A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+Get_touch > p{
+line-height: 20px;
+letter-spacing: 2px;
+text-align: left;
+color: #645C55;
+}
+Get_touch > h1{
+font-size: 40px;
+line-height: 42px;
+text-align: left;
+}
+Wishobone{
+width: auto;
+height: 204px;
+top: 6207px;
+display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    background-color: white;
+}
+.contact{
+    display: flex;
+    gap: 30px;
+}
